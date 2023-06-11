@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>focus PORTAL</title>
+        <script src="https://kit.fontawesome.com/3fe5da47ea.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <h3><b>A.V.T.I</b></h3>
+	  <div class="focus">
+		<div class="focus-mask">
+			<div class="focus-mask-inner">A.V.T.I</div>
+	   </div>
+   </div>
+
+        <div id="search">
+        <input id="caja1" onclick="vibrate()" type="text" placeholder="Enter search..."/>
+        <button id="find" onclick="find()">
+        <div class="iconx">
+        <i class="fa-solid fa-magnifying-glass"></i></div>
+        </button>
+        <div class="icon3" onclick="reset()" ondblclick="myFunction()">
+        <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        </div>
+        </div>
+        <div  align="center" id="frame"  align="center">
+         <iframe id="online" align="center"></iframe>
+         </div>
+         
+         <div id="info">
+         <h5>Incognito mode activated...</h5>
+         </div>
+         
+         <div id="search" onclick="share()">
+         </div>
+		 
+		 
+		 
+		 
+		
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	</head>
+	
+		
+		<!-- =============
+			 SLIDING BOXES
+			 ============= -->
+		<div class="sliding">
+			<p><b>WELCOME TO AVTI PORTAL..<b></p>
+			<p>INPUT YOUR STUDENT'S ID</p>
+			<p>YOUR ID IS CASE SENSITIVE</p>
+			<p>END BY ADDING THE YEAR </p>
+			<p>IF YOU WANT TO CHECK ALL RESULTS, ADD 'ALL'</p>
+			<p>CLICK THE LINK BELOW FOR HELP</p>
+			<p><u><a href=''>HELP</a></u></p>
+		</div>
+		
+		<!-- =============
+			 YOUR CONTENT
+			 ============= -->
+		<P>THIS IS BELOW CONTENT</P>
+	
+
+    </body>
+</html>
+
+<style>
+.sliding p {
+	 text-align: center;
+	 text-transform: uppercase;
+	 width: 600px;
+	 height: 50px;
+	 line-height: 50px;
+	 font-weight: bold;
+	 padding: 0;
+	 margin: 0 auto;
+	 background-color: green;
+	 color: white;
+	 
+	 animation: slidedown 3s forwards;
+	 position: relative;
+	 visibility: hidden;
+}
+	.sliding p:nth-child(1){
+		animation-delay: 1s;
+		z-index: 7;
+	}
+	.sliding p:nth-child(2){
+		animation-delay: 2s;
+		z-index: 6;
+	}
+	.sliding p:nth-child(3){
+		animation-delay: 3s;
+		z-index: 5;
+	}
+	.sliding p:nth-child(4) {
+		animation-delay: 4s;
+		z-index: 4;
+	}
+	.sliding p:nth-child(5) {
+		animation-delay: 5s;
+		z-index: 3;
+	}
+	.sliding p:nth-child(6) {
+		animation-delay: 6s;
+		z-index: 2;
+	}
+	.sliding p:nth-child(7) {
+		animation-delay: 7s;
+		z-index: 1;
+	}
+	
+	@keyframes slidedown {
+		0% {
+			visibility: hidden;
+			bottom: 50px;
+			opacity: 0;
+		}
+		75% {
+			visibility: visible;
+			bottom: 0;
+			opacity: 1;
+		}
+		100% {
+			margin: 20px auto;
+			visibility: visible;
+		}
+	}
+.sliding:after {
+	content: "";
+	display: block;
+	text-align: center;
+	animation: slidedown-content 7s 1s linear forwards;
+	margin-top: -370px;
+}
+	@keyframes slidedown-content {
+		0% {
+			margin-top: -370px;
+		}
+		100% {
+			margin-top: 0;
+		}
+	}
+
+
+
+.focus {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  position: relative;
+  width: 179px;
+}
+.focus:before {
+  content: 'A.V.T.I';
+  filter: blur(3px);
+}
+.focus:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: calc(100% + 8px);
+  top: -4px;
+  left: 0;
+  border-top: 2px solid lime;
+  border-bottom: 2px solid lime;
+  animation: mask-move 1s linear infinite alternate;
+}
+.focus-mask {
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #2c2c54;
+  animation: mask-move 1s linear infinite alternate;
+}
+.focus-mask-inner {
+  animation: mask-inner-move 1s linear infinite alternate;
+}
+@keyframes mask-move {
+  0% {
+	transform: translateX(0);
+  }
+  100% {
+	transform: translateX(129px);
+  }
+}
+@keyframes mask-inner-move {
+  0% {
+	transform: translateX(0);
+  }
+  100% {
+	transform: translateX(-129px);
+  }
+}
+body {
+    font-family:verdana;
+    color:blue;
+    background-image:url("https://mybrytfmonline.com/wp-content/uploads/2023/01/NEWMONT-AKYEM.png");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    
+}
+
+h3 {
+    text-align:center ;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+.icon3 {
+    position:relative ;
+    color:black;
+    margin-left:90%;
+    font-size:30px;
+    z-index:100;
+    margin-top:-29px;
+}
+
+h4 {
+    text-align:center;
+    color:white;
+}
+
+#caja1 {
+    padding:10px;
+    width:90%;
+    text-align:center ;
+    outline:none;
+    border: 1px solid gray;
+    border-radius:30px;
+    position:absolute ;
+    left:50%
+    transform:translate(-50%);
+    margin-top:20px;
+    position:absolute ;
+    z-index:10;
+}
+
+#frame {
+    position:absolute ;
+    margin-top:20%;
+    display:none;
+}
+
+#frame #online {
+margin: auto;
+width: 60%;
+border: 3px solid #73AD21;
+padding: 10px;
+
+}
+
+#find {
+    background:none;
+    border:none;
+    outline:none;
+    font-size:27px;
+    position:relative ;
+    z-index:100;
+    margin-top:23px;
+    margin-left:5px;
+}
+
+#info {
+position:fixed  ;
+    background:black;
+    opacity:.6;
+    padding:10px;
+    border-radius:10px;
+    text-align:center ;
+    width:110px;
+    max-height:30px;
+    margin-top:90%;
+    margin-left:50%;
+    transform:translate(-55%,0);
+    z-index:2000;
+    visibility:hidden ;
+}
+
+#info h5 {
+position:relative ;
+    opacity:1;
+    top:-20px;
+}
+</style>
+<script>
+
+alert("HELLO, WELCOME TO focus'S RESULTS PORTAL. PLEASE REMMEMBER ALL ID'S ARE CASE SENSITIVE!")
+
+function vibrate() {
+    window.navigator.vibrate(90);
+}
+
+function find(){
+var info = document.getElementById("info");
+
+info.style.visibility ="hidden";
+
+window.navigator.vibrate(90);
+
+var xdd = document.getElementById("frame");
+
+xdd.style.display ="block";
+
+if(ask=="") {
+    alert("You will be redirected to the Microsoft browser");
+}
+
+    var ask = document.getElementById("caja1").value;
+    
+    if(ask=="What is my name?"||ask=="What is my name"||ask=="what is my name"||ask=="My name"||ask=="Name"){
+   document.getElementById("ring").style="animation:ring 1s 2;"; 
+   setTimeout(think);
+   setTimeout(Unthink,2300)
+      setTimeout(name,2000);  
+      
+    }
+    else{
+        var on = document.getElementById("online");
+        on.style="visibility:visible;transform:scale(1);opacity:1;";
+        on.src="https://www.bing.com/search?q="+ask+"&qs=LS&pq=rom&sk=PRES1&sc=5-3&cvid=B5F7BBA2ECC847E5A7E0EC1BEFE402EE&FORM=QBLH&sp=1";
+    }
+}
+
+
+function think(){
+document.getElementById("sound").play();
+document.getElementById("sounds").play(); document.getElementById("think").innerHTML="Thinking...";
+    
+}
+
+function Unthink(){
+    document.getElementById("think").innerHTML="";
+}
+
+
+function reset() {
+var xddd= document.getElementById("frame");
+var info = document.getElementById("info");
+var values = document.getElementById("caja1");
+    values.value = "";
+xddd.style.display = "none";
+info.style.visibility = "visible"
+    window.navigator.vibrate(90);
+    
+}
+
+
+function myFunction() {
+    var info2 = document.getElementById("info");
+    var fram = document.getElementById("frame");
+    fram.style.display = "block"
+    info2.style.visibility = "hidden";
+}
+</script>
